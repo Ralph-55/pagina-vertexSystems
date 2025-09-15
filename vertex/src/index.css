@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.checkered-bg {
+  background-color: #111827;
+             background-image:
+                 linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9) 100%),
+                 linear-gradient(45deg, rgba(255, 255, 255, .05) 25%, transparent 25%),
+                 linear-gradient(-45deg, rgba(255, 255, 255, .05) 25%, transparent 25%),
+                 linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, .05) 75%),
+                 linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, .05) 75%);
+             background-size: auto, 20px 20px;
+}
