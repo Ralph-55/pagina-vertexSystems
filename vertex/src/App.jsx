@@ -13,7 +13,7 @@ function App() {
       <main className="flex flex-col items-center justify-center min-h-screen text-center px-6">
         <AnimateOnScroll>
           <img
-            src="../img/Diseño sin título (2).png"
+            src="../public/img/Diseño.png"
             className="h-24 mb-6"
             alt="Vertex Logo"
           />
@@ -111,7 +111,7 @@ function App() {
           <a href="https://inventario-lime.vercel.app/home">
             <div className=" bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
             <img 
-            src="../img/img_inventario.png" 
+            src="../public/img/img_inventario.png" 
             alt="Inventory System" 
             className="w-20 h-20 object-cover mx-auto mt-6"
             />
@@ -129,7 +129,7 @@ function App() {
           <a href="https://front-ecommerce-five.vercel.app/">
             <div className=" bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
             <img
-              src="../img/img_ecommerce.png"
+              src="../public/img/img_ecommerce.png"
               alt="Ecommerce Frontend"
               className="w-20 h-20 object-cover mx-auto mt-6"
             />
@@ -200,7 +200,7 @@ function App() {
           <div className="flex justify-center mb-4">
             <img 
               className="h-12 w-12" 
-              src="../img/img_whatsapp.png" 
+              src="../public/img/img_whatsapp.png" 
               alt="WhatsApp Logo">
             </img>
           </div>
@@ -219,7 +219,7 @@ function App() {
           <div className="flex justify-center mb-4">
             <img 
               className="h-12 w-12" 
-              src="../img/gmail.png" 
+              src="../public/img/gmail.png" 
               alt="Email Logo">
             </img>
           </div>
@@ -239,7 +239,7 @@ function App() {
           <div className="flex justify-center mb-4">
             <img 
               className="h-12 w-12" 
-              src="../img/instagram.png" 
+              src="../public/img/instagram.png" 
               alt="Instagram Logo">
             </img>
           </div>
