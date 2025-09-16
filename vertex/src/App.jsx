@@ -81,16 +81,22 @@ function App() {
       </section>
 
       {/* Nosotros */}
-      <section id="nosotros" className="py-20 px-6 bg-gray-950 text-center">
-        <AnimateOnScroll>
-          <h2 className="text-4xl font-bold mb-8">Sobre Nosotros</h2>
-          <p className="max-w-3xl mx-auto text-lg text-gray-400 leading-relaxed">
-            En Vertex Systems somos un equipo apasionado por la innovación
-            tecnológica. Nuestro objetivo es transformar ideas en soluciones
-            digitales que marquen la diferencia.
-          </p>
-        </AnimateOnScroll>
-      </section>
+        <section 
+          id="nosotros" 
+          className="relative px-4 min-h-screen flex flex-col justify-center bg-gray-950 text-center text-white"
+        >
+          <div 
+            className="absolute inset-0 bg-gradient-to-t from-gray-950 to-transparent z-0"
+          ></div>
+          <AnimateOnScroll className="relative z-10">
+            <h2 className="text-4xl font-bold mb-8">Sobre Nosotros</h2> {/* Heredará text-white */}
+            <p className="max-w-3xl mx-auto text-lg text-gray-400 leading-relaxed">
+              En Vertex Systems somos un equipo apasionado por la innovación
+              tecnológica. Nuestro objetivo es transformar ideas en soluciones
+              digitales que marquen la diferencia.
+            </p>
+          </AnimateOnScroll>
+        </section>
 
       {/* Proyectos */}
     <section id="proyectos" className="py-20 px-6 text-center">
@@ -139,7 +145,7 @@ function App() {
     </section>
 
       {/* Testimonios */}
-      <section id="testimonios" className="py-20 px-6 bg-gray-950 text-center">
+      <section id="testimonios" className="px-4 min-h-screen flex flex-col justify-center bg-gray-950 text-center">
         <AnimateOnScroll>
           <h2 className="text-4xl font-bold mb-12">Lo que dicen nuestros clientes</h2>
         </AnimateOnScroll>
