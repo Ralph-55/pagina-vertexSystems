@@ -92,29 +92,46 @@ function App() {
       </section>
 
       {/* Proyectos */}
-      <section id="proyectos" className="py-20 px-6 text-center">
-        <AnimateOnScroll>
-          <h2 className="text-4xl font-bold mb-12">Proyectos Destacados</h2>
+    <section id="proyectos" className="py-20 px-6 text-center">
+      <AnimateOnScroll>
+        <h2 className="text-4xl font-bold mb-12">Proyectos Destacados</h2>
+      </AnimateOnScroll>
+
+      <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        
+        {/* --- PROYECTO 1 --- */}
+        <AnimateOnScroll delay={0}>
+          <div className=" bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
+            <img
+              src="../img/monitor.png"
+              alt="Nombre del Proyecto Uno"
+              className="w-20 h-20 object-cover mx-auto mt-6"
+            />
+            <div className="p-6 bg-gray-800">
+              <h3 className="text-xl font-semibold">
+                Nombre del Proyecto Uno
+              </h3>
+            </div>
+          </div>
         </AnimateOnScroll>
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {[1, 2, 3].map((proj, i) => (
-            <AnimateOnScroll delay={i * 200} key={i}>
-              <div className="rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-                <img
-                  src={`/img/proyecto${proj}.jpg`}
-                  alt={`Proyecto ${proj}`}
-                  className="w-full h-56 object-cover"
-                />
-                <div className="p-6 bg-gray-800">
-                  <h3 className="text-xl font-semibold">
-                    Proyecto {proj} - Vertex
-                  </h3>
-                </div>
-              </div>
-            </AnimateOnScroll>
-          ))}
-        </div>
-      </section>
+
+        {/* --- PROYECTO 2 --- */}
+        <AnimateOnScroll delay={0}>
+          <div className=" bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
+            <img
+              src="../img/"
+              alt="Nombre del Proyecto Uno"
+              className="w-20 h-20 object-cover mx-auto mt-6"
+            />
+            <div className="p-6 bg-gray-800">
+              <h3 className="text-xl font-semibold">
+                Nombre del Proyecto Uno
+              </h3>
+            </div>
+          </div>
+        </AnimateOnScroll>
+      </div>
+    </section>
 
       {/* Testimonios */}
       <section id="testimonios" className="py-20 px-6 bg-gray-950 text-center">
