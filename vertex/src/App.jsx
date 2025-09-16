@@ -102,7 +102,8 @@ function App() {
         
         {/* --- PROYECTO 1 --- */}
         <AnimateOnScroll delay={0}>
-          <div className=" bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
+          <a href="https://inventario-lime.vercel.app/home">
+            <div className=" bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
             <img 
             src="../img/img_inventario.png" 
             alt="Inventory System" 
@@ -114,11 +115,13 @@ function App() {
               </h3>
             </div>
           </div>
+          </a>
         </AnimateOnScroll>
 
         {/* --- PROYECTO 2 --- */}
         <AnimateOnScroll delay={0}>
-          <div className=" bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
+          <a href="https://front-ecommerce-five.vercel.app/">
+            <div className=" bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
             <img
               src="../img/img_ecommerce.png"
               alt="Ecommerce Frontend"
@@ -130,6 +133,7 @@ function App() {
               </h3>
             </div>
           </div>
+          </a>
         </AnimateOnScroll>
       </div>
     </section>
@@ -181,7 +185,7 @@ function App() {
       {/* --- Tarjeta 1: WhatsApp --- */}
       <AnimateOnScroll delay={100}>
         <a
-          href="https://wa.me/[TU_NUMERO_DE_TELEFONO]" // <-- CAMBIA ESTO
+          href="http://wa.me/56981658907" // <-- CAMBIA ESTO
           target="_blank"
           rel="noopener noreferrer"
           className="block p-8 bg-gray-800 rounded-2xl shadow-lg hover:bg-gray-700 transition-all duration-300 transform hover:-translate-y-1"
@@ -202,7 +206,7 @@ function App() {
       {/* --- Tarjeta 2: Correo Electrónico --- */}
       <AnimateOnScroll delay={200}>
         <a
-          href="mailto:Vertexsystem@hotmail.com"
+          href="mailto:Vertexsystems@hotmail.com"
           className="block p-8 bg-gray-800 rounded-2xl shadow-lg hover:bg-gray-700 transition-all duration-300 transform hover:-translate-y-1"
         >
           {/* Ícono de Correo */}
@@ -213,20 +217,19 @@ function App() {
               alt="Email Logo">
             </img>
           </div>
-          <h3 className="text-2xl font-bold text-white mb-2">Correo Electrónico</h3>
-          <p className="text-gray-400">Ideal para detalles del proyecto y adjuntar archivos.</p>
+          <h3 className="text-2xl font-bold text-white mb-4">Correo Electrónico</h3>
+          <p className="text-gray-400 mb-4">Vertexsystems@hotmail.com</p>
         </a>
       </AnimateOnScroll>
 
       {/* --- Tarjeta 3: Instagram --- */}
       <AnimateOnScroll delay={300}>
         <a
-          href="https://instagram.com/[TU_USUARIO_DE_INSTAGRAM]" // <-- CAMBIA ESTO
+          href="https://www.instagram.com/verteexsystems?igsh=MTZjMW9wM3VtbGNudw==" 
           target="_blank"
           rel="noopener noreferrer"
           className="block p-8 bg-gray-800 rounded-2xl shadow-lg hover:bg-gray-700 transition-all duration-300 transform hover:-translate-y-1"
         >
-          {/* Ícono de Instagram (puedes usar el que ya tenías) */}
           <div className="flex justify-center mb-4">
             <img 
               className="h-12 w-12" 
